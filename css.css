@@ -6,16 +6,14 @@
  }
 
  @media(max-width:500px) {
-     #myCarousel img {
-         width: 100%;
-         height: 30vh;
+     .ad {
+         display: none;
      }
  }
 
  @media(min-width:800px) {
 
      body {
-         width: 80%;
          margin: auto;
          background-color: #F1F3F4;
      }
@@ -45,7 +43,7 @@
  }
 
  .icon {
-     width: 20px;
+     width: 25px;
      margin-bottom: 7px;
  }
 
@@ -93,21 +91,12 @@
      border-radius: 0px;
  }
 
- .ServiceImage {
-     width: 200px;
-     height: 200px;
- }
-
  .BlackBg {
      background-color: black;
  }
 
  .WhiteBg {
      background-color: white;
- }
-
- .ServiceImage:hover {
-     padding: 2%;
  }
 
  .font18 {
@@ -153,15 +142,6 @@
 
  .underline {
      text-decoration: underline;
- }
-
- .socialmedia {
-     width: 50px;
-     height: 50px;
- }
-
- .fb-like {
-     max-height: 300px;
  }
 
  html,
@@ -265,45 +245,30 @@
      display: inline-block;
  }
 
- .gdimg {
+
+ .shadow {
+     box-shadow: -5px 10px 5px grey;
+ }
+
+ .BoxText {
+     font-size: 20px;
+     text-decoration: none;
+     font-weight: bold;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+
+ }
+
+ .BoxText:hover {
+     color: green;
+     text-decoration: none;
+ }
+
+ .margin-bottom {
+     margin-bottom: 10px;
+ }
+
+
+ .width100 {
      width: 100%;
-     height: 150px;
-
- }
-
- .mySlides img {
-     width: 100%;
- }
-
- .slideshow-container {
-     max-width: 1000px;
-     position: relative;
-     margin: auto;
- }
-
- .fade {
-     -webkit-animation-name: fade;
-     -webkit-animation-duration: 1.5s;
-     animation-name: fade;
-     animation-duration: 1.5s;
- }
-
- @-webkit-keyframes fade {
-     from {
-         opacity: .4
-     }
-
-     to {
-         opacity: 1
-     }
- }
-
- @keyframes fade {
-     from {
-         opacity: .4
-     }
-
-     to {
-         opacity: 1
-     }
  }
